@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EFDDAC8E2D167F4F008532BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDDAC752D167F47008532BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDDAC7C2D167F47008532BC;
+			remoteInfo = BibleJournalApp;
+		};
+		EFDDAC982D167F4F008532BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDDAC752D167F47008532BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDDAC7C2D167F47008532BC;
+			remoteInfo = BibleJournalApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDDAC7D2D167F47008532BC /* BibleJournalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleJournalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDAC8D2D167F4F008532BC /* BibleJournalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleJournalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDDAC972D167F4F008532BC /* BibleJournalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleJournalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EFDDAC7F2D167F47008532BC /* BibleJournalApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BibleJournalApp;
+			sourceTree = "<group>";
+		};
+		EFDDAC902D167F4F008532BC /* BibleJournalAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BibleJournalAppTests;
+			sourceTree = "<group>";
+		};
+		EFDDAC9A2D167F4F008532BC /* BibleJournalAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BibleJournalAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDDAC7A2D167F47008532BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDAC8A2D167F4F008532BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDAC942D167F4F008532BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDDAC742D167F47008532BC = {
+			isa = PBXGroup;
+			children = (
+				EFDDAC7F2D167F47008532BC /* BibleJournalApp */,
+				EFDDAC902D167F4F008532BC /* BibleJournalAppTests */,
+				EFDDAC9A2D167F4F008532BC /* BibleJournalAppUITests */,
+				EFDDAC7E2D167F47008532BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDDAC7E2D167F47008532BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDDAC7D2D167F47008532BC /* BibleJournalApp.app */,
+				EFDDAC8D2D167F4F008532BC /* BibleJournalAppTests.xctest */,
+				EFDDAC972D167F4F008532BC /* BibleJournalAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDDAC7C2D167F47008532BC /* BibleJournalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDACA12D167F4F008532BC /* Build configuration list for PBXNativeTarget "BibleJournalApp" */;
+			buildPhases = (
+				EFDDAC792D167F47008532BC /* Sources */,
+				EFDDAC7A2D167F47008532BC /* Frameworks */,
+				EFDDAC7B2D167F47008532BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EFDDAC7F2D167F47008532BC /* BibleJournalApp */,
+			);
+			name = BibleJournalApp;
+			packageProductDependencies = (
+			);
+			productName = BibleJournalApp;
+			productReference = EFDDAC7D2D167F47008532BC /* BibleJournalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDDAC8C2D167F4F008532BC /* BibleJournalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDACA42D167F4F008532BC /* Build configuration list for PBXNativeTarget "BibleJournalAppTests" */;
+			buildPhases = (
+				EFDDAC892D167F4F008532BC /* Sources */,
+				EFDDAC8A2D167F4F008532BC /* Frameworks */,
+				EFDDAC8B2D167F4F008532BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDDAC8F2D167F4F008532BC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFDDAC902D167F4F008532BC /* BibleJournalAppTests */,
+			);
+			name = BibleJournalAppTests;
+			packageProductDependencies = (
+			);
+			productName = BibleJournalAppTests;
+			productReference = EFDDAC8D2D167F4F008532BC /* BibleJournalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDDAC962D167F4F008532BC /* BibleJournalAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDDACA72D167F4F008532BC /* Build configuration list for PBXNativeTarget "BibleJournalAppUITests" */;
+			buildPhases = (
+				EFDDAC932D167F4F008532BC /* Sources */,
+				EFDDAC942D167F4F008532BC /* Frameworks */,
+				EFDDAC952D167F4F008532BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDDAC992D167F4F008532BC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EFDDAC9A2D167F4F008532BC /* BibleJournalAppUITests */,
+			);
+			name = BibleJournalAppUITests;
+			packageProductDependencies = (
+			);
+			productName = BibleJournalAppUITests;
+			productReference = EFDDAC972D167F4F008532BC /* BibleJournalAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDDAC752D167F47008532BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					EFDDAC7C2D167F47008532BC = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					EFDDAC8C2D167F4F008532BC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFDDAC7C2D167F47008532BC;
+					};
+					EFDDAC962D167F4F008532BC = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EFDDAC7C2D167F47008532BC;
+					};
+				};
+			};
+			buildConfigurationList = EFDDAC782D167F47008532BC /* Build configuration list for PBXProject "BibleJournalApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDDAC742D167F47008532BC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EFDDAC7E2D167F47008532BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDDAC7C2D167F47008532BC /* BibleJournalApp */,
+				EFDDAC8C2D167F4F008532BC /* BibleJournalAppTests */,
+				EFDDAC962D167F4F008532BC /* BibleJournalAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDDAC7B2D167F47008532BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDAC8B2D167F4F008532BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDAC952D167F4F008532BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDDAC792D167F47008532BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDAC892D167F4F008532BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDDAC932D167F4F008532BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDDAC8F2D167F4F008532BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDDAC7C2D167F47008532BC /* BibleJournalApp */;
+			targetProxy = EFDDAC8E2D167F4F008532BC /* PBXContainerItemProxy */;
+		};
+		EFDDAC992D167F4F008532BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDDAC7C2D167F47008532BC /* BibleJournalApp */;
+			targetProxy = EFDDAC982D167F4F008532BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFDDAC9F2D167F4F008532BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDDACA02D167F4F008532BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDDACA22D167F4F008532BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BibleJournalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 393MAAN44A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbstudio.BibleJournalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDDACA32D167F4F008532BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BibleJournalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 393MAAN44A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbstudio.BibleJournalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFDDACA52D167F4F008532BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 393MAAN44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbstudio.BibleJournalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleJournalApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BibleJournalApp";
+			};
+			name = Debug;
+		};
+		EFDDACA62D167F4F008532BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 393MAAN44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbstudio.BibleJournalAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BibleJournalApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BibleJournalApp";
+			};
+			name = Release;
+		};
+		EFDDACA82D167F4F008532BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 393MAAN44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbstudio.BibleJournalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibleJournalApp;
+			};
+			name = Debug;
+		};
+		EFDDACA92D167F4F008532BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 393MAAN44A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dbstudio.BibleJournalAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BibleJournalApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDDAC782D167F47008532BC /* Build configuration list for PBXProject "BibleJournalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDAC9F2D167F4F008532BC /* Debug */,
+				EFDDACA02D167F4F008532BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDACA12D167F4F008532BC /* Build configuration list for PBXNativeTarget "BibleJournalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDACA22D167F4F008532BC /* Debug */,
+				EFDDACA32D167F4F008532BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDACA42D167F4F008532BC /* Build configuration list for PBXNativeTarget "BibleJournalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDACA52D167F4F008532BC /* Debug */,
+				EFDDACA62D167F4F008532BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDDACA72D167F4F008532BC /* Build configuration list for PBXNativeTarget "BibleJournalAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDDACA82D167F4F008532BC /* Debug */,
+				EFDDACA92D167F4F008532BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDDAC752D167F47008532BC /* Project object */;
+}
